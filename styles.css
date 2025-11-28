@@ -79,6 +79,7 @@ nav button {
 
 .signtext {
     font-family: "Crete Round", serif;
+    text-decoration: none;
     color: #fdb;
     border: none;
     position: absolute;
@@ -103,4 +104,42 @@ nav button {
 
 .signtext:nth-child(4) {
     top: 61%;
+}
+
+.bg {
+    width: 100%;
+}
+
+.frame {
+    position: absolute;
+}
+
+.frame:nth-child(1){
+    width: 10rem;
+    top: 5%;
+    left: 3%;
+}
+
+.frame:nth-child(2){
+    width: 7rem;
+    top: 18%;
+    left: 20%;
+}
+
+.frame:nth-child(3) {
+    width: 10rem;
+    top: 5%;
+    left: 42%;
+}
+
+.frame:nth-child(4) {
+    width: 10rem;
+    top: 5%;
+    left: 65%;
+}
+
+.frame:nth-child(5) {
+    width: 7rem;
+    top: 15%;
+    left: 85%;
 }
